@@ -138,8 +138,5 @@
 }
 @media (max-width:430px) {
     .navbar-right{
-        gap:10px;}
-    .navbar-right img{
-        display:none;
-    }
+        gap:5px;}
 }
