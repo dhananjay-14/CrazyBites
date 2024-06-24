@@ -1,0 +1,16 @@
+.footer {
+    margin: 20px;
+}
+
+.button {
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    /* width: 90px; */
+    color: azure;
+}
+
+.subscribe {
+    margin-top: 40px
+}

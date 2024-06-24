@@ -1,0 +1,38 @@
+.verify {
+    min-height: 60vh;
+    display: grid;
+}
+
+.verify .spinner {
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    border: 5px solid #bdbdbd;
+    border-top-color: cadetblue;
+    border-radius: 50%;
+    animation: rotate 1s infinite;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success a {
+    margin: 20px auto;
+}
+
+.success button {
+    padding: 8px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid azure;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

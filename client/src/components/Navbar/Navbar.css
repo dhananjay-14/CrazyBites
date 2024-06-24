@@ -1,0 +1,138 @@
+.navbar {
+    height: 75px;
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7vh;
+    margin-top: -20px;
+    padding-right: 25px;
+}
+
+.navbar .logo {
+    width: 140px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 65px;
+    color: #49557e;
+    font-size: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 17px;
+}
+
+.navbar button {
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #49557e;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #49557e;
+    transition: 0.4s;
+}
+
+.navbar button:hover {
+    background-color: #49557e;
+    color: white;
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(59, 57, 57);
+    transition: ease-out;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar-search-icon {
+    position: relative;
+}
+
+.navbar-search-icon .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+.navbar-profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid cadetblue;
+    outline: 2px solid white;
+    list-style: none;
+}
+
+.navbar-profile-dropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-profile-dropdown hr {
+    margin: 0;
+}
+
+.navbar-profile-dropdown li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.navbar-profile-dropdown li:hover {
+    color: cadetblue;
+}
+
+.navbar-profile-dropdown li p {
+    margin-bottom: 0;
+}
+
+.navbar-profile-dropdown img {
+    width: 20px;
+}
+
+@media (max-width:500px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -20px;
+        margin-bottom: 4vh;
+    }
+
+    .navbar .logo {
+        width: 110px;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-right {
+        gap: 20px;
+    }
+}
