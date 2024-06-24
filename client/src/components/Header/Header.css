@@ -81,3 +81,8 @@
     }
 
 }
+@media (max-width:430px) {
+    .header-contents h2 {
+        font-size: 45px;
+    }
+}
