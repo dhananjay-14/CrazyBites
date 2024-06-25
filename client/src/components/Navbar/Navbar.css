@@ -138,10 +138,16 @@
 }
 @media (max-width:430px) {
     .navbar-right{
-        gap:10px;}
+        gap:15px;}
+    .navbar button {
+        padding: 5px 10px;
+    }
 }
 @media(max-width:400px){
     .navbar-right{
-        gap:2px;
+        gap:10px;
+    }
+    .navbar button {
+        padding: 5px 10px;
     }
 }
