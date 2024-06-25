@@ -5,7 +5,7 @@ import Stripe from 'stripe'
 
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-const frontendurl = "http://localhost:5173";
+const frontendurl = "https://crazybites-frontend.onrender.com";
 // Placing user order 
 const placeOrder = async (req, res) => {
     try {
