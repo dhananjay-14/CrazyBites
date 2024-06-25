@@ -131,3 +131,10 @@
     padding: 15px;
     background: ghostwhite;
 }
+
+@media (max-width:430px){
+    .cart-items-item img {
+    width: 30px;
+    border-radius: 5px;
+}
+}
