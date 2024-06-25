@@ -96,10 +96,10 @@
 }
 
 @media(max-width:500px){
-    .food-item: {
-        height:380px;
+    .food-item {
+        height: 380px;
     }
-    .food-item:hover{
-        height:380px;
+    .food-item:hover  {
+        height: 380px;
     }
 }
