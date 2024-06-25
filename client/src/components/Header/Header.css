@@ -88,3 +88,8 @@
         font-size: 45px;
     }
 }
+@media (max-width:400px) {
+    .header-contents h2 {
+        font-size: 40px;
+    }
+}
