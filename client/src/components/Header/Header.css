@@ -71,7 +71,9 @@
     }
 
     .header-contents button {
-        margin-left: 161px;
+        margin-left: 122px;
+        width: 100px;
+        height: 35px;
     }
 
     .header {
